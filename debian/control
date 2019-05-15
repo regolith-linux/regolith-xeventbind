@@ -1,0 +1,12 @@
+Source: regolith-xeventbind
+Section: x11
+Priority: optional
+Maintainer: Ken Gilmer <kgilmer@gmail.com>
+Build-Depends: debhelper (>= 10)
+Standards-Version: 4.1.2
+Homepage: https://github.com/ritave/xeventbind
+
+Package: regolith-xeventbind
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, xeventbind
+Description: Configuration to refresh desktop wallpaper after screen changes.
