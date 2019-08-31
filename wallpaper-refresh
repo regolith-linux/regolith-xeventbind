@@ -1,5 +1,5 @@
 #!/bin/sh
 
-# Setting the picture-options causes the wallpaper to be redrawn.
-
-/usr/bin/gsettings set org.gnome.desktop.background picture-options "zoom"
+# Toggling the desktop-background causes the wallpaper to be redrawn.
+/usr/bin/gsettings set org.gnome.gnome-flashback desktop-background false
+/usr/bin/gsettings set org.gnome.gnome-flashback desktop-background true
